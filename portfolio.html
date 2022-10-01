@@ -8,8 +8,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   <!--MODERN-NORMALIZE  -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
-  
-  <link rel="stylesheet" href="./css/style.css" />
+
+  <link rel="stylesheet" href="./css/main.min.css">
   <title>WebStudio</title>
 </head>
 <body>
@@ -20,22 +20,22 @@
       <nav class="nav">
       <a class="logo" href="./index.html"><span class="logo-decoration">Web</span>Studio</a>
         <ul class="list-nav list">
-          <li class="item-list"><a class="link" href="./index.html">Студія</a></li>
-          <li class="item-list"><a class="link current" href="./portfolio.html">Портфоліо</a></li>
-          <li class="item-list"><a class="link" href="#">Контакти</a></li>
+          <li class="nav__item"><a class="nav__link" href="./index.html">Студія</a></li>
+          <li class="nav__item"><a class="nav__link current" href="./portfolio.html">Портфоліо</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Контакти</a></li>
         </ul>
       </nav>
 
       <ul class="list-contact list">
         <li class="item-contact">
-          <a class="link" href="mailto:info@devstudio.com">
+          <a class="link-contact link" href="mailto:info@devstudio.com">
             <svg class="contacts-icons-mailtu">
               <use href="./images/icons/contacts.svg#icon-envelope"></use>
             </svg>info@devstudio.com
           </a>
         </li>
         <li class="item-contact">
-          <a class="link" href="tel:+380961111111">
+          <a class="link-contact link" href="tel:+380961111111">
             <svg class="contacts-icons-phone">
               <use href="./images/icons/contacts.svg#icon-phone"></use>
             </svg>+38 096 111 11 11
@@ -44,27 +44,28 @@
       </ul>
     </div>
   </header>
+  <main>
 
   <!-- PORTFOLIO -->
   <main>
-    <section class="portfolio sectio">
+    <section class="portfolio section">
       <div class="container">
       <h1 class="visually-hidden ">Портфоліо</h1>
       <ul class="list-btn list">
         <li>
-          <button class="btn-portfolio active" type="button">Усі</button>
+          <button class="btn-portfolio active btn" type="button">Усі</button>
         </li>
         <li>
-          <button class="btn-portfolio" type="button">Веб-сайти</button>
+          <button class="btn-portfolio btn" type="button">Веб-сайти</button>
         </li>
         <li>
-          <button class="btn-portfolio" type="button">Веб-сайти</button>
+          <button class="btn-portfolio btn" type="button">Веб-сайти</button>
         </li>
         <li>
-          <button class="btn-portfolio" type="button">Дизайн</button>
+          <button class="btn-portfolio btn" type="button">Дизайн</button>
         </li>
         <li>
-          <button class="btn-portfolio" type="button">Маркетинг</button>
+          <button class="btn-portfolio btn" type="button">Маркетинг</button>
         </li>
       </ul>
 
@@ -78,8 +79,8 @@
               <p class="portfolio-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             <div class="portfolio-card">
-              <h2 class="title">Технокряк</h2>
-              <p class="text">Веб-сайт</p>
+              <h2 class="portfoli-list-title">Технокряк</h2>
+              <p class="portfolio-list-text">Веб-сайт</p>
             </div>
           </a>
         </li>
@@ -91,8 +92,8 @@
               <p class="portfolio-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             <div class="portfolio-card">
-              <h2 class="title">Постер New Orlean vs Golden Star</h2>
-              <p class="text">Дизайн</p>
+              <h2 class="portfoli-list-title">Постер New Orlean vs Golden Star</h2>
+              <p class="portfolio-list-text">Дизайн</p>
             </div>
           </a>
         </li>
@@ -104,8 +105,8 @@
               <p class="portfolio-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             <div  class="portfolio-card">
-              <h2 class="title">Ресторан Seafood</h2>
-              <p class="text">Додаток</p>
+              <h2 class="portfoli-list-title">Ресторан Seafood</h2>
+              <p class="portfolio-list-text">Додаток</p>
             </div>
           </a>
         </li>
@@ -117,8 +118,8 @@
               <p class="portfolio-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             <div  class="portfolio-card">
-              <h2 class="title">Проєкт Prime</h2>
-              <p class="text">Маркетинг</p>
+              <h2 class="portfoli-list-title">Проєкт Prime</h2>
+              <p class="portfolio-list-text">Маркетинг</p>
             </div>
           </a>
         </li>
@@ -130,8 +131,8 @@
               <p class="portfolio-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             <div  class="portfolio-card">
-              <h2 class="title">Проєкт Boxes</h2>
-              <p class="text">Додаток</p>
+              <h2 class="portfoli-list-title">Проєкт Boxes</h2>
+              <p class="portfolio-list-text">Додаток</p>
             </div>
           </a>
         </li>
@@ -143,8 +144,8 @@
               <p class="portfolio-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             <div  class="portfolio-card">
-              <h2 class="title">Inspiration has no Borders</h2>
-              <p class="text">Веб-сайт</p>
+              <h2 class="portfoli-list-title">Inspiration has no Borders</h2>
+              <p class="portfolio-list-text">Веб-сайт</p>
             </div>
           </a>
         </li>
@@ -156,8 +157,8 @@
               <p class="portfolio-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             <div  class="portfolio-card">
-              <h2 class="title">Видання Limited Edition</h2>
-              <p class="text">Дизайн</p>
+              <h2 class="portfoli-list-title">Видання Limited Edition</h2>
+              <p class="portfolio-list-text">Дизайн</p>
             </div>
           </a>
         </li>
@@ -169,8 +170,8 @@
               <p class="portfolio-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             <div  class="portfolio-card">
-              <h2 class="title">Проєкт LAB</h2>
-              <p class="text">Маркетинг</p>
+              <h2 class="portfoli-list-title">Проєкт LAB</h2>
+              <p class="portfolio-list-text">Маркетинг</p>
             </div>
           </a>
         </li>
@@ -182,8 +183,8 @@
               <p class="portfolio-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
             </div>
             <div  class="portfolio-card">
-              <h2 class="title">Growing Business</h2>
-              <p class="text">Додаток</p>
+              <h2 class="portfoli-list-title">Growing Business</h2>
+              <p class="portfolio-list-text">Додаток</p>
             </div>
           </a>
         </li>
@@ -191,6 +192,7 @@
     </div>
     </section>
   </main>
+
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container footer-box">
@@ -199,8 +201,8 @@
           <address class="footer-address">
             <ul class="footer-list list">
               <li class="item-footer"><a class="link-adres" href="">м. Київ, пр-т Лесі Українки, 26</a></li>
-              <li class="item-footer"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-              <li class="item-footer"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+              <li class="item-footer"><a class="footer-link-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+              <li class="item-footer"><a class="footer-link-contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
           </address>
         </div>
@@ -253,7 +255,7 @@
           equired
           pattern="[a-zA-Zа]+"
           placeholder="E-mail">
-          <button class="footer-form-btn" type="button">
+          <button class="footer-form-btn btn" type="submit">
             Підписатися
             <svg class="footer-icon-btn">
               <use href="./images/icons/social-networks.svg#icon-send"></use>
