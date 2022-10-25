@@ -1,18 +1,18 @@
 
-.curstomers-list {
+.curstomers__list {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
 
 
-.curstomers-item {
+.curstomers__item {
   width: 170px;
   height: 92px;
 }
 
 
-.curstomers-link {
+.curstomers__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,14 +29,14 @@
 }
 
 
-.curstomers-icon {
+.curstomers__icon {
   fill: #afb1b8;
   height: 60px;
   width: 106px;
   transition: fill var(--transition-dur-and-func);
 
-  .curstomers-link:hover &,
-  .curstomers-link:focus & {
+  .curstomers__link:hover &,
+  .curstomers__link:focus & {
     fill: var(--accent-color);
   
   }

@@ -12,18 +12,26 @@
 }
 
 
-.footer .logo { 
-  color: var(--primary-text-light-color);
+.footer-logo { 
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  margin-right: 93px;
+  display: block;
+  
+  color: #FFFFFF;
 }
 
 
-.footer-address {
+.footer-address__item{
   font-style: normal;
   margin-top: 14px;
 }
 
 
-.item-footer {
+.footer-address__item {
   margin-top: 9px;
 
   &:first-child {
@@ -32,7 +40,7 @@
 }
 
 
-.link-adres {
+.footer-address__link {
   display: block;
   line-height: 1.71;
   text-decoration: none;
@@ -41,7 +49,7 @@
 }
 
 
-.footer-link-contact {
+.footer-address__link-contact {
   display: block;
   line-height: 1.71;
   text-decoration: none;
@@ -61,7 +69,7 @@
 }
 
 
-.footer-social-title {
+.footer-social__title {
   margin-bottom: 20px;
   text-transform: uppercase;
   @include font (14px, 700, 16px);
@@ -69,28 +77,20 @@
 }
 
 
-.footer-social-list {
-  display: flex;
-  justify-content: center;
-  column-gap: 10px;
-  
-}
-
-
-.footer-social-title {
+.footer-social__title {
   display: flex;
   color: #F5F5F5;
 }
 
 
-.footer-social-list {
+.footer-social__list {
   display: flex;
   justify-content: center;
   column-gap: 10px ;
 }
 
 
-.footer-social-item {
+.footer-social__item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -101,7 +101,7 @@
 }
 
 
-.footer-social-link {
+.footer-social__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,7 +118,7 @@
 }
 
 
-.footer-social-icon {
+.footer-social__icon {
   height: 20px;
   width: 20px;
   fill:#ffffff;
